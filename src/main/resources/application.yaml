@@ -3,9 +3,9 @@ spring:
     name: TCC-Gym-Admin
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/tcc_gym_admin
-    username: postgres
-    password: postgres
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
 
   jpa:
