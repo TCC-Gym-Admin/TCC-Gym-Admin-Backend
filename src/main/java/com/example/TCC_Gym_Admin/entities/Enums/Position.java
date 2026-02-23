@@ -2,7 +2,7 @@ package com.example.TCC_Gym_Admin.entities.Enums;
 
 public enum Position {
 
-    PERSONAL_TRAINER (1);
+    PERSONAL_TRAINER(1);
 
     private int code;
 
